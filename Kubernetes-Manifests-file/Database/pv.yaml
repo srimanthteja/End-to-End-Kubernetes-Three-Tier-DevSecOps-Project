@@ -8,6 +8,6 @@ spec:
     storage: 3Gi
   volumeMode: Filesystem
   accessModes:
-    - ReadWriteOnce
+    - ReadWriteMany
   hostPath:
     path: /data/db
