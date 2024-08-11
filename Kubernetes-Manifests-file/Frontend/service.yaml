@@ -6,7 +6,7 @@ metadata:
 spec:
   ports:
   - port: 80
-    protocol: TCP
+    protocol: HTTP
   type: LoadBalancer
   selector:
     role: frontend
