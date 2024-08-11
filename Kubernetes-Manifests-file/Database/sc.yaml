@@ -1,0 +1,10 @@
+apiVersion: storage.k8s.io/v
+kind: StorageClass
+metadata: 
+  name: demo-storage 
+provisioner: kubernetes.io/aws-ebs
+volumeBindingMode: Immediate
+reclaimPolicy: Delete
+
+
+
